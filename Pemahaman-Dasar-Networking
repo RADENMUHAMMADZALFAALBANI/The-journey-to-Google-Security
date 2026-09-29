@@ -1,0 +1,30 @@
+Ringkasan Dasar Jaringan Komputer (Computer Networking)
+
+Catatan singkat dan padat tentang konsep dasar jaringan komputer, istilah penting, sampai alur belajarnya.
+
+
+1. Apa sih Jaringan Komputer itu?
+Gampangnya,Networking itu cara kita menghubungkan beberapa perangkat (laptop, HP, printer, IoT) supaya bisa saling "ngobrol" dan kirim-kiriman data. Baik pake kabel LAN maupun tanpa kabel (Wi-Fi), dari yang jaraknya sekamar sampai antarnegara.
+
+2. Jangkauan Jaringan (Cakupan Area)
+-LAN:Jaringan lokal skala kecil (misal: Wi-Fi rumah atau laboratorium kampus).
+-MAN:Jaringan skala kota (misal: menghubungkan beberapa kantor cabang dalam satu kota).
+-WAN:Jaringan super luas (antarprovinsi, negara, atau benua).
+-Internet:Jaringan raksasa tanpa batas yang menghubungkan seluruh dunia.
+-Intranet & Extranet:Jaringan khusus internal perusahaan (Intranet), yang kalau diberi akses terbatas ke pihak luar/vendor jadi Extranet.
+Wireless:Jaringan nirkabel yang mengandalkan gelombang radio (seperti Wi-Fi atau sinyal HP).
+
+3. Perangkat & Istilah Penting
+-IP Address:"Alamat rumah" unik untuk tiap perangkat biar gak salah kirim data.
+-Router:"Polantas"-nya jaringan. Dia yang atur rute lalu lintas data dan menghubungkan jaringan lokal ke internet.
+-Switch / Hub: Colokan tempat ngumpulnya perangkat dalam satu ruangan/LAN biar saling terhubung.
+-DNS:Mengubah alamat web yang mudah diingat (misal `google.com`) jadi deretan angka IP Address.
+-DHCP: Fitur yang bagi-bagi IP Address secara otomatis ke HP atau laptop pas baru nyambung ke Wi-Fi.
+-Topologi: Bentuk/peta susunan jaringan (ada bentuk Star, Bus, Ring, Mesh).
+-Protokol:Aturan main/bahasa resmi komunikasi data (contoh: TCP/IP, HTTP/HTTPS, DNS).
+
+4.Langkah Belajar Jaringan (Buat Pemula)
+1.Pahami Cara Kerja Dasar:Pelajari gimana data dibungkus dan dikirim antar peranti.
+2.Kenali Perangkat Fisik:Tahu bedanya Router, Switch, dan Access Point.
+3.Pahami Aturan Main (Protokol & IP):Belajar konsep IP v4, Subnetting, dan cara kerja DNS/HTTP.
+4.Praktek Simulasi:Coba desain dan tes jaringan buatan sendiri pakai software gratisan kayak Cisco Packet Tracer.
